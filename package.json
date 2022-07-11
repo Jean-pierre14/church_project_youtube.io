@@ -1,51 +1,38 @@
 {
-  "name": "material-kit",
-  "version": "3.0.4",
-  "description": "Freebie UI Kit for Bootstrap 5",
-  "main": "index.html",
-  "directories": {
-    "example": "root"
+  "name": "church_project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "open-app": "gulp open-app",
-    "start": "npm run open-app",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "gulp-watch"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-kit.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "keywords": [
-    "material kit 2",
-    "bootstrap 5",
-    "design system",
-    "ui kit",
-    "creative tim",
-    "html kit",
-    "html css kit",
-    "web kit",
-    "freebie",
-    "free bootstrap kit",
-    "css3 kit",
-    "bootstrap design system",
-    "frontend",
-    "responsive bootstrap kit"
-  ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/material-kit/issues"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean": "^0.4.0",
-    "gulp-install": "^1.1.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-open": "^3.0.1",
-    "sass": "^1.49.9"
-  },
-  "homepage": "https://creative-tim.com/product/material-kit"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
