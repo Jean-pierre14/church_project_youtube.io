@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-hue: 210;
+    --gray-hue: 240;
+    --color-primary: hsl(var(--primary-hue), 100%, 50%);
+    --color-secondary: #ffb116;
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-100: hsl(var(--gray-hue), 26%, 75%);
+    --color-gray-100: hsl(var(--gray-hue), 24%, 64%);
+    --color-gray-100: hsl(var(--gray-hue), 16%, 41%);
+    --color-gray-100: hsl(var(--gray-hue), 44%, 25%);
+    --color-gray-100: hsl(var(--gray-hue), 48%, 15%);
+    --ontainer-width-lg: 80%;
+    --ontainer-width-md: 90%;
+    --transition: all 500ms ease;
+}
